@@ -27,7 +27,7 @@
 }
 
 /* smartphone */
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     .navbaritems {
       margin-bottom: -1px;
     }
@@ -37,4 +37,4 @@
     .navbaritems {
         margin-bottom: -1px;
   }
-} */
+}

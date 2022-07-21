@@ -103,7 +103,7 @@
 
 
 /* smartphone */
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
   .aboutcontainer {
     width: 14rem;
     background-color: #0A192F;
@@ -123,7 +123,7 @@
 }
 
 
- tablet 
+ /* tablet  */
 @media screen and (min-width: 501px) and (max-width: 850px)  {
   .aboutcontainer {
     width: 21rem;
@@ -141,4 +141,4 @@
   font-size: 4rem;
   width: 30rem;
   }
-} */
+}
