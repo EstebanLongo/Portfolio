@@ -2,6 +2,7 @@ import React from "react";
 import "./techstack.css";
 import img from "../../assets/mongoDB.png";
 import image from "../../assets/sequelize.png";
+import imgreact from "../../assets/react.png"
 
 export default function TechStack() {
   return (
@@ -45,7 +46,8 @@ export default function TechStack() {
         <div className="divimg">
           <img
             className="techstackimg"
-            src="http://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png"
+            // src="http://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png"
+            src={imgreact}
             alt="img not found"
           />
           <p className="techname">REACT</p>
