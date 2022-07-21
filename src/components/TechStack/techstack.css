@@ -1,0 +1,92 @@
+.techcontainter {
+    background-color: #0a192f;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40em;
+    padding-left: 20em;
+  }
+  
+  .techcontainter2 {
+    height: 35em;
+    width: 65em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .divimg:hover {
+    animation-duration: 5s;
+    -webkit-animation-duration: 1s;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .techname {
+    color: aliceblue;
+    padding-top: 1rem;
+  }
+  .skills {
+    padding-left: 20em;
+    color: rgb(225, 225, 224);
+    background-color: #0a192f;
+    padding-top: 8em;
+  }
+  
+  .techstackimg {
+    height: 5rem;
+    width: 5rem;
+    gap: 1rem;
+  }
+  
+  .techstackimggh {
+    height: 5rem;
+    width: 5rem;
+    gap: 1rem;
+    border-radius: 37px;
+  }
+  
+  .divimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0.5px 1px 0.8px 1.2px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 10rem;
+    width: 10rem;
+  }
+  
+  /* @media (max-width: 500px) {
+    .skills {
+      background-color: #0a192f;
+      width: 32rem;
+      margin-top: -15rem;
+    }
+    .techcontainter {
+      background-color: #0a192f;
+      width: 32rem;
+      height: 75rem;
+    }
+  }
+  
+  @media screen and (min-width: 501px) and (max-width: 850px)  {
+    .skills {
+      width: 39rem;
+      margin-top: -2rem;
+      padding-bottom: 2rem;
+    }
+    .techcontainter{
+      margin-top: -1rem;
+      width: 39rem;
+    }
+    .aboutfullstack{
+      font-size: 5rem;
+      width: 35rem;
+    }
+    .aboutname{
+    font-size: 4rem;
+    width: 30rem;
+    }
+  } */
+  

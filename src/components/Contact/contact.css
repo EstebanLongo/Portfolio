@@ -1,0 +1,109 @@
+.contactcontainer {
+    height: 28em;
+    background-color: #0a192f;
+    padding-top: 32rem;
+    padding-left: 8em;
+    padding-right: 20em;
+  }
+  
+  .contactitle {
+    margin-left: 17rem;
+    color: azure;
+    margin-left: 10rem;
+  }
+  
+  .contactp {
+    color: azure;
+    margin-left: 17rem;
+    margin-left: 10rem;
+  }
+  
+  .anchor {
+    text-decoration: none;
+    height: 7rem;
+    width: 15rem;
+  }
+  .contactcards {
+    height: 20em;
+    display: flex;
+    margin: 2rem 10rem;
+    gap: 2rem;
+  }
+  
+  .contactcardstitle {
+    color: azure;
+    font-size: 17px;
+  }
+  
+  .linkedin {
+    border: #091528 solid 2px;
+    height: 7rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img {
+    border-radius: 40px;
+    margin-left: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+  }
+  .github {
+    border: #091528 solid 2px;
+    height: 7rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .githubimg {
+    height: 5rem;
+    margin-left: 1rem;
+    width: 5rem;
+    border-radius: 40px;
+  }
+  
+  .btntop{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: -25rem;
+    float: left;
+    height: 10rem;
+    margin-top: 10rem;
+    margin-right: 15rem;
+  }
+  
+  .imgtop{
+    height: 5rem;
+    width: 5rem;
+    margin-left: -10rem;
+  }
+  
+  
+  /* smartphone */
+  /* @media (max-width: 500px) {
+    .contactcontainer {
+      background-color: #0a192f;
+      width: 24rem;
+      padding-top: 80rem;
+    }
+    .btntop {
+      margin-left: -15rem;
+    }
+  }
+  
+  
+  @media screen and (min-width: 501px) and (max-width: 850px)  {
+    .contactcontainer{
+      width: 31rem;
+      margin-top: -2px;
+      padding-top: 80rem;  
+    }
+    .btntop {
+      margin-left: -15rem;
+    }
+  } */

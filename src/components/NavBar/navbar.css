@@ -1,0 +1,40 @@
+.navbarlist {
+    background: rgb(10,25,47);
+    background: linear-gradient(180deg, rgba(10,25,47,1) 56%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 5em;
+    padding: 0;
+    /* margin: 0; */
+    width: 100%;
+    justify-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    position: fixed;
+} 
+
+.anchornav{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbaritems {
+    /* margin-right: 50px; */
+    margin: 15px 20px;
+    color: rgba(215, 211, 205, 0.92);
+    cursor: pointer;
+}
+
+/* smartphone */
+/* @media (max-width: 500px) {
+    .navbaritems {
+      margin-bottom: -1px;
+    }
+  }
+
+  @media screen and (min-width: 501px) and (max-width: 850px)  {
+    .navbaritems {
+        margin-bottom: -1px;
+  }
+} */
