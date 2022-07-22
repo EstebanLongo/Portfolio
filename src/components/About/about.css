@@ -105,7 +105,7 @@
 /* smartphone */
 @media (max-width: 500px) {
   .aboutcontainer {
-    width: 5rem;
+    width: 2rem;
     background-color: #0A192F;
   }
   .aboutp{
