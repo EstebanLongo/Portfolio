@@ -14,6 +14,7 @@ export default function Projects() {
         <div className="projects">
           <img src={aguademar} className="countriesappimg" />
           <h2 className="projecttitle">Agua de mar</h2>
+          <br />
           <div className="projectp">
             Web page for a seawater distributor in Cordoba, Argentina.
             <br />
@@ -46,6 +47,7 @@ export default function Projects() {
         <div className="projects">
           <img src={terapeando} className="countriesappimg" />
           <h2 className="projecttitle">Terapeando</h2>
+          <br />
           <div className="projectp">
             Online therapy app to connect patients and healthcare professionals
             health.
@@ -80,6 +82,7 @@ export default function Projects() {
         <div className="projects">
           <img src={img} className="countriesappimg" />
           <h2 className="projecttitle">Countries App</h2>
+          <br />
           <div className="projectp">
             SPA (Single Page Application) about countries, where you can:
             <br />
@@ -112,6 +115,7 @@ export default function Projects() {
         <div className="projects">
           <img src={moviesapp} className="countriesappimg" />
           <h2 className="projecttitle">Movies App</h2>
+          <br />
           <div className="projectp">
             App about movies, using an external API where you can:
             <br />
