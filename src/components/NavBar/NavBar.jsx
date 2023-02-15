@@ -13,7 +13,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            ABOUT
+            About
           </Link>
         </li>
 
@@ -25,7 +25,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            Skills
+            Tech st
           </Link>
         </li>
 
