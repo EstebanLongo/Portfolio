@@ -8,7 +8,7 @@ export default function NavBar() {
       <ul className="navbarlist">
         <li className="navbaritems">
           <Link
-            className="hover:border-b-4 border-pink-600 duration-100"
+            // className="hover:border-b-4 border-pink-600 duration-100"
             to="about"
             smooth={true}
             duration={500}
@@ -19,7 +19,7 @@ export default function NavBar() {
 
         <li className="navbaritems">
           <Link
-            className="hover:border-b-4 border-pink-600 duration-100"
+            // className="hover:border-b-4 border-pink-600 duration-100"
             to="skills"
             smooth={true}
             duration={500}
@@ -30,7 +30,7 @@ export default function NavBar() {
 
         <li className="navbaritems">
           <Link
-            className="hover:border-b-4 border-pink-600 duration-100"
+            // className="hover:border-b-4 border-pink-600 duration-100"
             to="projects"
             smooth={true}
             duration={500}
