@@ -20,6 +20,7 @@ export default function NavBar() {
         <li className="navbaritems">
           <Link
             // className="hover:border-b-4 border-pink-600 duration-100"
+            className="linknavbar"
             to="skills"
             smooth={true}
             duration={500}
