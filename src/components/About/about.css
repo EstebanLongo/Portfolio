@@ -16,7 +16,7 @@
   color: rgb(252, 88, 43);
   /* font-family: var(--font-mono); */
   /* font-size: clamp(var(--fz-sm), 5vw, var(--fz-md)); */
-  font-size: 2rem;
+  font-size: 18px;
   font-weight: 400;
 }
 .aboutname {
