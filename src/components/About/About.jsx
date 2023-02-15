@@ -9,21 +9,27 @@ export default function About() {
       <h1 className="aboutname">Esteban Longo.</h1>
       <h2 className="aboutfullstack">Full Stack Developer</h2>
       <p className="aboutp">
-        {/* Soy una persona proactiva, de mente analítica, con grandes habilidades
-        de comunicación y empatía. Con pensamiento creativo, resolución de problemas,
-        trabajo en equipo, comunicación y autonomía. Día a día intento mejorar mis habilidades, soy un entusiasta del aprendizaje continuo. */}
-        Mi curiosidad hace de mi día a día mejorar mis habilidades. Soy un entusiasta del continuo aprendizaje. Tanto en lo grupal como en lo individual me reconozco como una persona proactiva, de mente analítica, resolutiva y creativa, con grandes habilidades de comunicación y de trabajo en equipo.
+        I'm a positive and enthusiastic Full Stack Web Developer from Argentina.
+        I am continously learning and building up my skills. I am a very curious
+        person, with the ability to solve problems and above all always willing
+        to teach and learn from others. My development experience has been
+        mainly in the academic field, at the soyHenry bootcamp, where I was able
+        to exercise my technical skills, but above all my social skills as a
+        developer. I am a proactive person, with an analytical mind, with great
+        communication and empathy skills, great curiosity and always eager to
+        learn new technologies.
       </p>
 
       <section id="section05" className="demo">
         {/* <a href="#projects"> */}
-          <Link
-            className="linkaboutprojects"       
-            to="projects"
-            smooth={true}
-            duration={500}>
+        <Link
+          className="linkaboutprojects"
+          to="projects"
+          smooth={true}
+          duration={500}
+        >
           <span></span>Mis proyectos
-          </Link>
+        </Link>
         {/* </a> */}
       </section>
     </div>
