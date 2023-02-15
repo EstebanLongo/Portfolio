@@ -23,7 +23,6 @@ export default function About() {
       </p>
 
       <section id="section05" className="demo">
-        {/* <a href="#projects"> */}
         <Link
           className="linkaboutprojects"
           to="projects"
@@ -32,7 +31,6 @@ export default function About() {
         >
           <span></span>My projects
         </Link>
-        {/* </a> */}
       </section>
     </div>
   );

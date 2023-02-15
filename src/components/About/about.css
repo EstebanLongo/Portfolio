@@ -51,8 +51,7 @@
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  /* color: #fff; */
-  color: rgb(252, 88, 43);
+  color: #fff;
   font: normal 400 20px/1 "Josefin Sans", sans-serif;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -60,6 +59,7 @@
 }
 .demo a:hover {
   opacity: 0.5;
+  color: rgb(252, 88, 43);
 }
 
 #section05 a {
