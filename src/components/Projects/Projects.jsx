@@ -16,7 +16,8 @@ export default function Projects() {
           <div className="projectp">
             SPA (Single Page Application) sobre países, en la cual se podrán
             visualizar los mismos traídos desde una API, con toda su
-            información. <br /><br />
+            información. <br />
+            <br />
             <h3>Funcionalidades:</h3>
             <ul className="projectul">
               <li>Buscar paises por nombre</li>
@@ -28,7 +29,7 @@ export default function Projects() {
               <li>Orden por población</li>
             </ul>
             <br />
-            <h3>Tecnologias utilizadas:</h3>
+            <h3>Tech stack:</h3>
             Javascript, React, Redux, HTML, CSS, Node.js, Express, Sequelize y
             PostgreSQL
           </div>
@@ -48,7 +49,8 @@ export default function Projects() {
           <h2 className="projecttitle">Terapeando</h2>
           <div className="projectp">
             App de terapia online para conectar pacientes y profesionales de la
-            salud. <br /><br />
+            salud. <br />
+            <br />
             <h3>Funcionalidades:</h3>
             <ul className="projectul">
               <li>Login simple y con Google</li>
@@ -61,7 +63,7 @@ export default function Projects() {
               <li>Panel de administrador</li>
             </ul>
             <br />
-            <h3>Tecnologias utilizadas:</h3>
+            <h3>Tech stack:</h3>
             Javascript, React, Redux, HTML, CSS, Chakra UI, Node.js, TypeScript,
             Express y MongoDB
           </div>
@@ -80,17 +82,19 @@ export default function Projects() {
           <img src={moviesapp} className="countriesappimg" />
           <h2 className="projecttitle">Movies App</h2>
           <div className="projectp">
-            App sobre peliculas, utilizando una API externa en la cual se podrán visualizar las peliculas, con toda su información.
-          <br /><br />
+            App sobre peliculas, utilizando una API externa en la cual se podrán
+            visualizar las peliculas, con toda su información.
+            <br />
+            <br />
             <h3>Funcionalidades:</h3>
             <ul className="projectul">
               <li>Buscar peliculas por titulo</li>
               <li>Ver detalle de las peliculas</li>
               <li>Guardar y eliminar de favoritos</li>
             </ul>
-          <br />
-          <h3>Tecnologias utilizadas:</h3>
-          Javascript, React, Redux, HTML, CSS
+            <br />
+            <h3>Tech stack:</h3>
+            Javascript, React, Redux, HTML, CSS
           </div>
           <button className="projectbtn">
             <a
@@ -99,6 +103,34 @@ export default function Projects() {
               className="btnanchor"
             >
               Ver Proyecto
+            </a>
+          </button>
+        </div>
+
+        <div className="projects">
+          <img src={moviesapp} className="countriesappimg" />
+          <h2 className="projecttitle">Agua de mar</h2>
+          <div className="projectp">
+            Web page for a seawater distributor in Cordoba, Argentina. In which
+            you can obtain information about the process through which seawater
+            passes until it can be consumed, its composition, how it is
+            obtained, how it is consumed and the benefits for our health that
+            consuming seawater has. There are also recommended readings and
+            there is a list of frequently asked questions about its consumption,
+            its conservation and contraindications. It also has a contact form
+            to place orders or request more information.
+            <br />
+            <br />
+            <h3>Tech stack:</h3>
+            Javascript, React, HTML, CSS
+          </div>
+          <button className="projectbtn">
+            <a
+              href="https://aguademar-rl.vercel.app/"
+              target="_blank"
+              className="btnanchor"
+            >
+              Project
             </a>
           </button>
         </div>
