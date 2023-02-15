@@ -10,14 +10,16 @@ export default function About() {
       <h2 className="aboutfullstack">Full Stack Developer</h2>
       <p className="aboutp">
         I'm a positive and enthusiastic Full Stack Web Developer from Argentina.
-        I am continously learning and building up my skills. I am a very curious
-        person, with the ability to solve problems and above all always willing
-        to teach and learn from others. My development experience has been
-        mainly in the academic field, at the soyHenry bootcamp, where I was able
-        to exercise my technical skills, but above all my social skills as a
-        developer. I am a proactive person, with an analytical mind, with great
-        communication and empathy skills, great curiosity and always eager to
-        learn new technologies.
+        <br />
+        I am continously learning and building up my skills. I consider myself a
+        very curious person, with the ability to solve problems and above all
+        always willing to teach and learn from others.
+        <br />
+        My development experience has been mainly in the academic field, at the
+        soyHenry bootcamp, where I was able to exercise my technical skills, but
+        above all my social skills as a developer. I am a proactive person, with
+        an analytical mind, with great communication and empathy skills, great
+        curiosity and always eager to learn new technologies.
       </p>
 
       <section id="section05" className="demo">
