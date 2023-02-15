@@ -8,7 +8,7 @@ import aguademar from "../../assets/aguademar.PNG";
 export default function Projects() {
   return (
     <div className="projectscontainer" id="projects">
-      <h1 className="projectstitle">Mis proyectos</h1>
+      <h1 className="projectstitle">My projects</h1>
 
       <div className="projectscont">
         <div className="projects">
@@ -22,9 +22,10 @@ export default function Projects() {
             obtained, how it is consumed and the benefits for our health that
             consuming seawater has.
             <br />
-            There are also recommended readings and there is a list of
-            frequently asked questions about its consumption, its conservation
-            and contraindications. It also has a contact form to place orders or
+            <br />
+            There are also recommended readings, a list of frequently asked
+            questions about its consumption, its conservation and
+            contraindications and it also has a contact form to place orders or
             request more information.
             <br />
             <br />
@@ -50,16 +51,15 @@ export default function Projects() {
             health.
             <br />
             <br />
-            <h3>Funcionalidades:</h3>
             <ul className="projectul">
-              <li>Google login and simple login</li>
-              <li>Payment gateway integration</li>
-              <li>Reservation system</li>
-              <li>Blog</li>
-              <li>Google Maps API</li>
-              <li>Filter by specialties</li>
-              <li>Chatbot</li>
-              <li>Admin Panel</li>
+              <li>Google login and simple login.</li>
+              <li>Payment gateway integration.</li>
+              <li>Reservation system.</li>
+              <li>Blog.</li>
+              <li>Google Maps API.</li>
+              <li>Filter by specialties.</li>
+              <li>Chatbot.</li>
+              <li>Admin Panel.</li>
             </ul>
             <br />
             <h3>Tech stack:</h3>
@@ -85,13 +85,13 @@ export default function Projects() {
             <br />
             <br />
             <ul className="projectul">
-              <li>Search countries by name</li>
-              <li>See in detail each country</li>
-              <li>Filter by continent</li>
-              <li>Create turistic activities</li>
-              <li>Filter by activities</li>
-              <li>Order alphabetically</li>
-              <li>Order by population</li>
+              <li>Search countries by name.</li>
+              <li>See in detail each country.</li>
+              <li>Filter by continent.</li>
+              <li>Create turistic activities.</li>
+              <li>Filter by activities.</li>
+              <li>Order alphabetically.</li>
+              <li>Order by population.</li>
             </ul>
             <br />
             <h3>Tech stack:</h3>
@@ -113,15 +113,13 @@ export default function Projects() {
           <img src={moviesapp} className="countriesappimg" />
           <h2 className="projecttitle">Movies App</h2>
           <div className="projectp">
-            App about movies, using an external API in which you can view the
-            movies, with all their information
+            App about movies, using an external API where you can:
             <br />
             <br />
-            <h3>Funcionalidades:</h3>
             <ul className="projectul">
-              <li>Search movies by title</li>
-              <li>See details of movies</li>
-              <li>Save and delete from favourites</li>
+              <li>Search movies by title.</li>
+              <li>See details of movies.</li>
+              <li>Save and delete from favourites.</li>
             </ul>
             <br />
             <h3>Tech stack:</h3>
