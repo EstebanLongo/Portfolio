@@ -15,14 +15,17 @@ export default function Projects() {
           <img src={aguademar} className="countriesappimg" />
           <h2 className="projecttitle">Agua de mar</h2>
           <div className="projectp">
-            Web page for a seawater distributor in Cordoba, Argentina. In which
-            you can obtain information about the process through which seawater
-            passes until it can be consumed, its composition, how it is
+            Web page for a seawater distributor in Cordoba, Argentina.
+            <br />
+            In which you can obtain information about the process through which
+            seawater passes until it can be consumed, its composition, how it is
             obtained, how it is consumed and the benefits for our health that
-            consuming seawater has. There are also recommended readings and
-            there is a list of frequently asked questions about its consumption,
-            its conservation and contraindications. It also has a contact form
-            to place orders or request more information.
+            consuming seawater has.
+            <br />
+            There are also recommended readings and there is a list of
+            frequently asked questions about its consumption, its conservation
+            and contraindications. It also has a contact form to place orders or
+            request more information.
             <br />
             <br />
             <h3>Tech stack:</h3>
@@ -43,19 +46,20 @@ export default function Projects() {
           <img src={terapeando} className="countriesappimg" />
           <h2 className="projecttitle">Terapeando</h2>
           <div className="projectp">
-            App de terapia online para conectar pacientes y profesionales de la
-            salud. <br />
+            Online therapy app to connect patients and healthcare professionals
+            health.
+            <br />
             <br />
             <h3>Funcionalidades:</h3>
             <ul className="projectul">
-              <li>Login simple y con Google</li>
-              <li>Integración de pasarela de pagos</li>
-              <li>Sistema de reservas</li>
+              <li>Google login and simple login</li>
+              <li>Payment gateway integration</li>
+              <li>Reservation system</li>
               <li>Blog</li>
               <li>Google Maps API</li>
-              <li>Filtro por especialidades</li>
+              <li>Filter by specialties</li>
               <li>Chatbot</li>
-              <li>Panel de administrador</li>
+              <li>Admin Panel</li>
             </ul>
             <br />
             <h3>Tech stack:</h3>
@@ -68,7 +72,7 @@ export default function Projects() {
               target="_blank"
               className="btnanchor"
             >
-              Ver Proyecto
+              Project
             </a>
           </button>
         </div>
@@ -77,19 +81,17 @@ export default function Projects() {
           <img src={img} className="countriesappimg" />
           <h2 className="projecttitle">Countries App</h2>
           <div className="projectp">
-            SPA (Single Page Application) sobre países, en la cual se podrán
-            visualizar los mismos traídos desde una API, con toda su
-            información. <br />
+            SPA (Single Page Application) about countries, where you can:
             <br />
-            <h3>Funcionalidades:</h3>
+            <br />
             <ul className="projectul">
-              <li>Buscar paises por nombre</li>
-              <li>Ver en detalle cada pais</li>
-              <li>Filtro por continente</li>
-              <li>Crear actividades turisticas</li>
-              <li>Filtro por actividades</li>
-              <li>Orden alfabetico</li>
-              <li>Orden por población</li>
+              <li>Search countries by name</li>
+              <li>See in detail each country</li>
+              <li>Filter by continent</li>
+              <li>Create turistic activities</li>
+              <li>Filter by activities</li>
+              <li>Order alphabetically</li>
+              <li>Order by population</li>
             </ul>
             <br />
             <h3>Tech stack:</h3>
@@ -102,7 +104,7 @@ export default function Projects() {
               target="_blank"
               className="btnanchor"
             >
-              Ver Proyecto
+              Project
             </a>
           </button>
         </div>
@@ -111,15 +113,15 @@ export default function Projects() {
           <img src={moviesapp} className="countriesappimg" />
           <h2 className="projecttitle">Movies App</h2>
           <div className="projectp">
-            App sobre peliculas, utilizando una API externa en la cual se podrán
-            visualizar las peliculas, con toda su información.
+            App about movies, using an external API in which you can view the
+            movies, with all their information
             <br />
             <br />
             <h3>Funcionalidades:</h3>
             <ul className="projectul">
-              <li>Buscar peliculas por titulo</li>
-              <li>Ver detalle de las peliculas</li>
-              <li>Guardar y eliminar de favoritos</li>
+              <li>Search movies by title</li>
+              <li>See details of movies</li>
+              <li>Save and delete from favourites</li>
             </ul>
             <br />
             <h3>Tech stack:</h3>
@@ -131,7 +133,7 @@ export default function Projects() {
               target="_blank"
               className="btnanchor"
             >
-              Ver Proyecto
+              Project
             </a>
           </button>
         </div>
