@@ -5,7 +5,8 @@ import "./about.css";
 export default function About() {
   return (
     <div className="aboutcontainer" id="about">
-      <h1 className="aboutname">Esteban Longo</h1>
+      <p>Hi, my name is</p>
+      <h1 className="aboutname">Esteban Longo.</h1>
       <h2 className="aboutfullstack">Full Stack Developer</h2>
       <p className="aboutp">
         {/* Soy una persona proactiva, de mente analítica, con grandes habilidades

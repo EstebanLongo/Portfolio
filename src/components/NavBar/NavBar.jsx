@@ -13,7 +13,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            SOBRE MI
+            ABOUT
           </Link>
         </li>
 
@@ -35,7 +35,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            PROYECTOS
+            PROJECTS
           </Link>
         </li>
 
@@ -46,7 +46,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            CONTACTO
+            CONTACT
           </Link>
         </li>
       </ul>
