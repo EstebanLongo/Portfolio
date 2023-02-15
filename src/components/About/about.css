@@ -1,7 +1,4 @@
 .aboutcontainer {
-  /* background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2022/02/arnold-francisca-f77Bh3inUpE-unsplash.jpg"); */
-  /* background-image: url("https://i1.wp.com/courseora.com/wp-content/uploads/2020/04/Java-programming-language.jpg?fit=1024%2C683&ssl=1");
-    background-repeat: no-repeat; */
   background-color: #0a192f;
   background-size: 100%;
   display: flex;
@@ -14,8 +11,6 @@
 
 .aboutsaludo {
   color: rgb(252, 88, 43);
-  /* font-family: var(--font-mono); */
-  /* font-size: clamp(var(--fz-sm), 5vw, var(--fz-md)); */
   font-size: 18px;
   font-weight: 400;
 }
@@ -23,13 +18,12 @@
 .aboutname {
   font-size: 4.5rem;
   font-weight: 700;
-  /* font-size: clamp(40px, 8vw, 80px); */
   color: #ccd6f6;
 }
 
 .aboutname {
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  -webkit-animation: text-focus-in 1.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 @-webkit-keyframes text-focus-in {
@@ -63,8 +57,8 @@
 }
 
 .aboutfullstack {
-	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: focus-in-expand 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes focus-in-expand {
