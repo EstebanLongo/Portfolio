@@ -8,10 +8,7 @@ export default function TechStack() {
   return (
     <>
       <div className="skills" id='skills'>
-        <h2>Skills</h2>
-        <p>
-          Estas son las tecnologias con las cuales estoy trabajando actualmente
-        </p>
+        <h2>Tech Stack:</h2>
       </div>
 
       <div className="techcontainter">
