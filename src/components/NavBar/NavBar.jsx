@@ -25,7 +25,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            SKILLS
+            Skills
           </Link>
         </li>
 
