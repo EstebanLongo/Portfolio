@@ -4,6 +4,7 @@
   background-color: rgba(10, 25, 47, 0.85);
   backdrop-filter: blur(10px);
   transition: var(--transition);
+  --navy-shadow: rgba(2,12,27,0.7);
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -15,6 +16,13 @@
   justify-content: flex-end;
   gap: 30px;
   position: fixed;
+  box-shadow: 0 10px 30px -10px var(--navy-shadow);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-slate);
+  border: 3px solid var(--navy);
+  border-radius: 10px;
 }
 
 .anchornav {
