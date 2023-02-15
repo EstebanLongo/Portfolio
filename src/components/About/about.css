@@ -12,6 +12,9 @@
   height: 40em;
 }
 
+.aboutsaludo {
+  color: rgb(252, 88, 43);
+}
 .aboutname {
   font-size: 4.5rem;
   font-weight: 700;
