@@ -11,13 +11,13 @@ export default function About() {
       <p className="aboutp">
         I'm a positive and enthusiastic Full Stack Web Developer from Argentina.
         <br />
-        I am continously learning and building up my skills. I consider myself a
+        I'm continously learning and building up my skills. I consider myself a
         very curious person, with the ability to solve problems and above all
         always willing to teach and learn from others.
         <br />
         My development experience has been mainly in the academic field, at the
         soyHenry bootcamp, where I was able to exercise my technical skills, but
-        above all my social skills as a developer. I am a proactive person, with
+        above all my social skills as a developer. I'm a proactive person, with
         an analytical mind, with great communication and empathy skills, great
         curiosity and always eager to learn new technologies.
       </p>
