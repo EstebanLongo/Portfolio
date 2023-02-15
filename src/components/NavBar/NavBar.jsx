@@ -7,12 +7,7 @@ export default function NavBar() {
     <>
       <ul className="navbarlist">
         <li className="navbaritems">
-          <Link
-            className="linknavbar"
-            to="about"
-            smooth={true}
-            duration={500}
-          >
+          <Link className="linknavbar" to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
@@ -25,7 +20,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            Tech st
+            Tech Stack
           </Link>
         </li>
 
@@ -37,7 +32,7 @@ export default function NavBar() {
             smooth={true}
             duration={500}
           >
-            PROJECTS
+            Projects
           </Link>
         </li>
 
