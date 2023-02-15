@@ -28,7 +28,7 @@ export default function About() {
           smooth={true}
           duration={500}
         >
-          <span></span>Mis proyectos
+          <span></span>My projects
         </Link>
         {/* </a> */}
       </section>
