@@ -98,7 +98,7 @@ export default function Projects() {
             </ul>
             <br />
             <h3>Tech stack:</h3>
-            Javascript, React, Redux, HTML, CSS, Node.js, Express, Sequelize y
+            Javascript, React, Redux, HTML, CSS, Node.js, Express, Sequelize and
             PostgreSQL
           </div>
           <button className="projectbtn">
