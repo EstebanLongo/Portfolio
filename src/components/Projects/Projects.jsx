@@ -3,6 +3,7 @@ import "./proyects.css";
 import img from "../../assets/countriesApp.JPG";
 import moviesapp from "../../assets/moviesapp.PNG";
 import terapeando from "../../assets/terapeandoApp.PNG";
+import aguademar from "../../assets/aguademar.PNG";
 
 export default function Projects() {
   return (
@@ -11,35 +12,29 @@ export default function Projects() {
 
       <div className="projectscont">
         <div className="projects">
-          <img src={img} className="countriesappimg" />
-          <h2 className="projecttitle">Countries App</h2>
+          <img src={aguademar} className="countriesappimg" />
+          <h2 className="projecttitle">Agua de mar</h2>
           <div className="projectp">
-            SPA (Single Page Application) sobre países, en la cual se podrán
-            visualizar los mismos traídos desde una API, con toda su
-            información. <br />
+            Web page for a seawater distributor in Cordoba, Argentina. In which
+            you can obtain information about the process through which seawater
+            passes until it can be consumed, its composition, how it is
+            obtained, how it is consumed and the benefits for our health that
+            consuming seawater has. There are also recommended readings and
+            there is a list of frequently asked questions about its consumption,
+            its conservation and contraindications. It also has a contact form
+            to place orders or request more information.
             <br />
-            <h3>Funcionalidades:</h3>
-            <ul className="projectul">
-              <li>Buscar paises por nombre</li>
-              <li>Ver en detalle cada pais</li>
-              <li>Filtro por continente</li>
-              <li>Crear actividades turisticas</li>
-              <li>Filtro por actividades</li>
-              <li>Orden alfabetico</li>
-              <li>Orden por población</li>
-            </ul>
             <br />
             <h3>Tech stack:</h3>
-            Javascript, React, Redux, HTML, CSS, Node.js, Express, Sequelize y
-            PostgreSQL
+            Javascript, React, HTML, CSS
           </div>
           <button className="projectbtn">
             <a
-              href="https://countries-pi-esteban.vercel.app/"
+              href="https://aguademar-rl.vercel.app/"
               target="_blank"
               className="btnanchor"
             >
-              Ver Proyecto
+              Project
             </a>
           </button>
         </div>
@@ -79,6 +74,40 @@ export default function Projects() {
         </div>
 
         <div className="projects">
+          <img src={img} className="countriesappimg" />
+          <h2 className="projecttitle">Countries App</h2>
+          <div className="projectp">
+            SPA (Single Page Application) sobre países, en la cual se podrán
+            visualizar los mismos traídos desde una API, con toda su
+            información. <br />
+            <br />
+            <h3>Funcionalidades:</h3>
+            <ul className="projectul">
+              <li>Buscar paises por nombre</li>
+              <li>Ver en detalle cada pais</li>
+              <li>Filtro por continente</li>
+              <li>Crear actividades turisticas</li>
+              <li>Filtro por actividades</li>
+              <li>Orden alfabetico</li>
+              <li>Orden por población</li>
+            </ul>
+            <br />
+            <h3>Tech stack:</h3>
+            Javascript, React, Redux, HTML, CSS, Node.js, Express, Sequelize y
+            PostgreSQL
+          </div>
+          <button className="projectbtn">
+            <a
+              href="https://countries-pi-esteban.vercel.app/"
+              target="_blank"
+              className="btnanchor"
+            >
+              Ver Proyecto
+            </a>
+          </button>
+        </div>
+
+        <div className="projects">
           <img src={moviesapp} className="countriesappimg" />
           <h2 className="projecttitle">Movies App</h2>
           <div className="projectp">
@@ -103,34 +132,6 @@ export default function Projects() {
               className="btnanchor"
             >
               Ver Proyecto
-            </a>
-          </button>
-        </div>
-
-        <div className="projects">
-          <img src={moviesapp} className="countriesappimg" />
-          <h2 className="projecttitle">Agua de mar</h2>
-          <div className="projectp">
-            Web page for a seawater distributor in Cordoba, Argentina. In which
-            you can obtain information about the process through which seawater
-            passes until it can be consumed, its composition, how it is
-            obtained, how it is consumed and the benefits for our health that
-            consuming seawater has. There are also recommended readings and
-            there is a list of frequently asked questions about its consumption,
-            its conservation and contraindications. It also has a contact form
-            to place orders or request more information.
-            <br />
-            <br />
-            <h3>Tech stack:</h3>
-            Javascript, React, HTML, CSS
-          </div>
-          <button className="projectbtn">
-            <a
-              href="https://aguademar-rl.vercel.app/"
-              target="_blank"
-              className="btnanchor"
-            >
-              Project
             </a>
           </button>
         </div>
