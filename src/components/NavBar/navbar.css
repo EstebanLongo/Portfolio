@@ -42,7 +42,17 @@
   border-radius: 10px;
 }
 
+/* .navbaritems {
+  margin: 15px 20px;
+  color: #ccd6f6;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+} */
+
 .linknavbar {
+  overflow: hidden;
+  text-decoration: none;
   display: inline-block;
   position: relative;
   color: #ccd6f6;
