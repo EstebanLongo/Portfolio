@@ -6,7 +6,7 @@ import imgreact from "../../assets/react.png";
 
 export default function TechStack() {
   return (
-    <>
+    <div className="divtechcontainer">
       <div className="skills" id="skills">
         <h2>Tech Stack:</h2>
       </div>
@@ -111,6 +111,6 @@ export default function TechStack() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

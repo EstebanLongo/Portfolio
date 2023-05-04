@@ -169,7 +169,7 @@
 }
 
 /* smartphone */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .aboutcontainer {
     width: 14rem;
     background-color: #0a192f;
@@ -188,7 +188,6 @@
   }
 }
 
-/* tablet  */
 @media screen and (min-width: 501px) and (max-width: 850px) {
   .aboutcontainer {
     width: 21rem;
@@ -205,5 +204,29 @@
   .aboutname {
     font-size: 4rem;
     width: 30rem;
+  }
+} */
+
+@media only screen and (max-width: 576px) {
+  .aboutcontainer {
+    width: 100%;
+    /* background-color: rgb(16, 19, 19); */
+    margin-left: -15rem;
+    height: 46em;
+  }
+  .aboutname {
+    font-size: 58px;
+  }
+  .aboutfullstack {
+    font-size: 58px;
+  }
+  .aboutp{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutcontainer {
+    width: 100%;
   }
 }

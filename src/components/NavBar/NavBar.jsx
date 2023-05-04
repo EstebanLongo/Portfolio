@@ -4,7 +4,7 @@ import "./navbar.css";
 
 export default function NavBar() {
   return (
-    <>
+    <nav className="navbar">
       <ul className="navbarlist">
         <li className="navbaritems">
           <Link className="linknavbar" to="about" smooth={true} duration={500}>
@@ -47,6 +47,6 @@ export default function NavBar() {
           </Link>
         </li>
       </ul>
-    </>
+    </nav>
   );
 }

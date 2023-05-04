@@ -57,7 +57,7 @@
     width: 10rem;
   }
   
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     .skills {
       background-color: #0a192f;
       width: 32rem;
@@ -88,5 +88,38 @@
     font-size: 4rem;
     width: 30rem;
     }
+  } */
+  
+  @media only screen and (max-width: 576px) {
+    .divtechcontainer {
+      width: 549px;
+      margin-bottom: 5rem;
+      margin-top: -5rem;
+    }
+    .techcontainter {
+      margin-top: -10px;
+      width: 100%;
+      height: 74rem;
+    }
+    .skills {
+      width: 100%;
+    }
   }
   
+  @media (max-width: 900px) {
+    .divtechcontainer {
+      width: 66rem;
+      margin-top: 15rem;
+    }
+    .skills {
+      width: 100%;
+      /* background-color: #909aa9; */
+      margin-top: -16rem;
+      margin-bottom: -1rem;
+    }
+    .techcontainter {
+      background-color: #0a192f;
+      width: 100%;
+      height: 75rem;
+    }
+  }
